@@ -26,3 +26,9 @@
 - Patient photos: written patient consent, including permission for website and marketing use.
 - Before/after cases: no AI cases, no competitor cases, no stock dental transformations.
 - Travel/accommodation photos: use DentAlba-owned photos or licensed hotel/partner photos only.
+
+## Highest-Revenue Trust Assets Still Needed
+
+- Three real patient testimonials with permission to publish: name or initials, country, treatment, star rating, and short quote.
+- Doctor names, doctor photos, and one credential line for each surgeon or lead clinician.
+- Confirm whether `info@dentalba.al` is the correct lead email address. The website email form currently uses this address until the clinic confirms the final inbox.

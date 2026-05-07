@@ -1,4 +1,5 @@
 const WHATSAPP_NUMBER = "355000000000";
+const EMAIL_ADDRESS = "info@dentalba.al";
 
 function whatsappUrl(message) {
   if (WHATSAPP_NUMBER === "355000000000") {
@@ -34,6 +35,13 @@ function wireQuoteForms() {
         `Notes: ${data.get("notes") || ""}`,
         "I can send X-rays or photos here."
       ];
+      if (event.submitter?.hasAttribute("data-email-submit")) {
+        const subject = encodeURIComponent("DentAlba treatment plan request");
+        const body = encodeURIComponent(lines.join("\n"));
+        window.location.href = `mailto:${EMAIL_ADDRESS}?subject=${subject}&body=${body}`;
+        return;
+      }
+
       window.open(whatsappUrl(lines.join("\n")), "_blank", "noopener");
     });
   });

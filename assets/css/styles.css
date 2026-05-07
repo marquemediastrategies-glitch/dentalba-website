@@ -140,6 +140,35 @@ a {
   font-weight: 800;
 }
 
+.hero-reviews {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  max-width: 680px;
+  margin-top: 18px;
+}
+
+.hero-reviews div {
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, .82);
+}
+
+.hero-reviews strong {
+  display: block;
+  color: var(--coral);
+  font-size: 16px;
+}
+
+.hero-reviews span {
+  display: block;
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
 .eyebrow {
   margin: 0 0 14px;
   color: var(--teal-dark);
@@ -241,6 +270,46 @@ p {
   margin-top: 4px;
   color: var(--muted);
   font-size: 14px;
+}
+
+.compact-section {
+  padding-top: 46px;
+  padding-bottom: 46px;
+}
+
+.doctor-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  width: min(1180px, calc(100% - 32px));
+  margin: 0 auto;
+}
+
+.doctor-card {
+  display: grid;
+  grid-template-columns: 82px 1fr;
+  gap: 18px;
+  align-items: center;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+}
+
+.doctor-avatar {
+  display: grid;
+  width: 82px;
+  height: 82px;
+  place-items: center;
+  border-radius: 50%;
+  color: var(--white);
+  background: var(--teal-dark);
+  font-weight: 900;
+}
+
+.doctor-card p {
+  margin-top: 8px;
+  color: var(--muted);
 }
 
 .section {
@@ -757,6 +826,7 @@ p {
 
   .grid,
   .two-grid,
+  .doctor-grid,
   .trust-strip,
   .proof-grid {
     grid-template-columns: 1fr;
@@ -807,6 +877,11 @@ p {
   }
 
   .mini-compare {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-reviews,
+  .doctor-card {
     grid-template-columns: 1fr;
   }
 
