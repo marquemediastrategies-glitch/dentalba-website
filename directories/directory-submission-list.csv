@@ -1,0 +1,10 @@
+priority,platform,url,listing_type,status,notes
+1,DentalBnB,https://dentalbnb.com/,Clinic marketplace,Not started,Check provider registration terms
+1,AirClinic,https://airclinic.io/,Medical tourism directory,Not started,Check provider listing or sponsorship options
+2,Flytocure,https://flytocure.com/,Medical tourism marketplace,Not started,Check clinic verification requirements
+2,Treatment in Europe,https://www.treatmentineurope.com/,Medical tourism platform,Not started,Check whether dentistry providers can list
+3,Fly&Health,https://flyandhealth.com/,Doctor/clinic request platform,Not started,Check provider onboarding
+3,Clinew,https://clinew.com/,Medical tourism marketplace,Not started,Check provider listing terms
+3,Google Business Profile,https://www.google.com/business/,Local SEO profile,Not started,Must use real clinic details
+3,Bing Places,https://www.bingplaces.com/,Local SEO profile,Not started,Sync with Google Business Profile if available
+

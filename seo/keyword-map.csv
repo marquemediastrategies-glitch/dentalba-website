@@ -1,0 +1,16 @@
+priority,country_language,page_type,url_slug,primary_keyword,secondary_keywords,intent,cta
+1,French,Landing page,/fr/implants-dentaires-albanie,implants dentaires albanie,"implant dentaire albanie prix; soins dentaires albanie; dentiste albanie",High commercial,Free treatment plan
+1,English,Landing page,/dental-implants-albania,dental implants albania,"dental tourism albania; dentist albania foreigners; dental implants abroad europe",High commercial,Free quote
+2,Italian,Landing page,/it/impianti-dentali-albania,impianti dentali albania,"dentista albania prezzi; turismo dentale albania; implantologia albania",High commercial,Preventivo gratuito
+2,Spanish,Landing page,/es/implantes-dentales-albania,implantes dentales albania,"turismo dental albania; dentista albania precios; implantes dentales extranjero",High commercial,Presupuesto gratis
+3,Belgium French,Landing page,/be/soins-dentaires-albanie,soins dentaires albanie belge,"implants dentaires albanie belge; dentiste albanie francophone",High commercial,Devis gratuit
+3,Scandinavian English,Landing page,/scandinavia/dental-care-albania,dental care albania scandinavia,"affordable dental implants europe; dentist abroad albania",High commercial,Free consultation
+1,English,Treatment page,/all-on-4-albania,all on 4 albania,"all on 6 albania; full mouth dental implants albania",High commercial,Upload X-ray
+2,French,Treatment page,/fr/all-on-4-albanie,all on 4 albanie,"all on 6 albanie; implants dentaires complets albanie",High commercial,Envoyer radio
+1,English,Article,/cost/dental-implants-albania-cost,dental implants albania cost,"dental implant prices albania; cost of dentist albania",Research commercial,Get price estimate
+1,French,Article,/fr/prix-implants-dentaires-albanie,prix implants dentaires albanie,"combien coute implant dentaire albanie; devis implant albanie",Research commercial,Recevoir estimation
+2,Italian,Article,/it/costo-impianti-dentali-albania,costo impianti dentali albania,"prezzi dentista albania; quanto costa impianto dentale albania",Research commercial,Preventivo gratuito
+2,Spanish,Article,/es/precio-implantes-dentales-albania,precio implantes dentales albania,"coste implantes dentales albania; dentista barato albania",Research commercial,Presupuesto gratis
+2,English,Article,/compare/albania-vs-turkey-dental-implants,albania vs turkey dental implants,"best country dental implants europe; dental tourism albania turkey",Comparison,Free consultation
+3,English,Article,/safety/is-dental-treatment-in-albania-safe,is dental treatment in albania safe,"albania dentist reviews; dental tourism safety albania",Trust building,Ask dentist
+
