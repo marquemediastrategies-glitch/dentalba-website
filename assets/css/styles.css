@@ -187,7 +187,7 @@ h3 {
 
 h1 {
   max-width: 780px;
-  font-size: clamp(42px, 7vw, 82px);
+  font-size: clamp(36px, 5.2vw, 62px);
 }
 
 h2 {
@@ -417,6 +417,44 @@ p {
   color: var(--white);
   border-radius: 8px;
   background: #292d31;
+}
+
+.case-variation-grid {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.case-card {
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, .12);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, .06);
+}
+
+.case-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1.72 / 1;
+  object-fit: cover;
+}
+
+.case-card-body {
+  display: grid;
+  gap: 10px;
+  padding: 18px;
+}
+
+.case-card h3 {
+  color: var(--white);
+  font-size: 20px;
+}
+
+.case-card p {
+  color: rgba(255, 255, 255, .76);
+  font-size: 15px;
+  line-height: 1.55;
 }
 
 .transformation-copy h2 {
@@ -828,7 +866,8 @@ p {
   .two-grid,
   .doctor-grid,
   .trust-strip,
-  .proof-grid {
+  .proof-grid,
+  .case-variation-grid {
     grid-template-columns: 1fr;
   }
 
@@ -861,7 +900,7 @@ p {
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 34px;
   }
 
   .lead {
